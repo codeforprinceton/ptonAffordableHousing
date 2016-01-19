@@ -43,10 +43,20 @@ Website:  in development.
 Kristen -- Project Lead
 Maggienj --Business Analyst
 Jiahuan Kang -- Data Analyst
+<<<<<<< HEAD
 Donholloway --
+=======
+Donholloway -- 
+>>>>>>> origin/master
 Slacker --
 Rober Martin --
 Paul Reiss --
 ashokkhandelwal --
 Malini --
 shaili
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> origin/master
