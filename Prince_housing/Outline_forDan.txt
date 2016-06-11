@@ -1,0 +1,66 @@
+Hi Danny,
+Here is how the first page should look like.
+
+*I will try to wireframe the outline in textmode here.
+
+Input:
+Title:
+Affordable Housing - Princeton
+
+Sub-title:
+
+Step-1: Please input the following mandatory fields and click on the "Submit" button to check your eligibility to process the application.
+
+
+It should show these four text fields.
+
+First Name:
+Last Name:
+SSN:
+City:
+Zip:
+Annual Salary for the total household:
+Number of people in the Household:
+
+<<Submit>> <<Cancel>>
+
+
+Once the Submit button is hit, it should read a flat file in the backend and lookup if this person is eligible or not.
+
+The lookup text file,  will have these columns.
+Number of People in the household,
+Min-Total annual salary for the household,
+Max-Total annual salary for the household,
+City
+Zip
+
+
+Process:
+Based on the input received in the above text fields, the processing logic should lookup this text file, if the user is eligible for 
+"affordable housing" application initialization.
+
+Output:
+If the user is eligible, then it will show a screen indicating " Success, you are eligible to apply for affordable housing in <<city>>"
+If not, show this message, "Sorry, you are not eligible to apply for affordable housing in <<city>>"
+
+
+Addtional notes:
+We have plans to support this page in English and Spanish, as most of the people speak spanish.
+The above notes is for Version-1.A of the affordable housing project.
+We have promised to deliver Version-1.A and version-1.B for the affordable housing project.
+
+The version-1-A will use the flat file for loookup data
+The version-1-B will use a backend db for lookup data. 
+- The suggested backend db is postgres as another user is using this for GeoSpatial data to show the homes in maps using python.
+First , let us complete Version-1-A.
+
+We have to show this as a demo in the upcoming meetup.  (date is yet to be announced.. )
+
+Tech Architecture:
+Bootstrap and angular.js for front end.
+node.js for the backend.  (depending on the version and its needs, we may use this. 
+- if not, jsut angular.js for version-1-A. 
+- Maybe for version-1-B we will use node.js for the backened db access))
+Ruby on Rails to glue all this in.
+
+

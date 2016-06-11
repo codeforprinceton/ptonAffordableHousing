@@ -1,0 +1,5 @@
+More info on Lookup data:
+In this link, http://knowlton-nj.com/incomelimits%20%281%29.pdf
+Region-4 is data pertinent to Princeton.
+This Region-4 data (4 rows.... multiple columns based on number of persons and income limits) will be used in the lookup file for processing the eligibility criteria.
+Approximately four rows and ten columns.
