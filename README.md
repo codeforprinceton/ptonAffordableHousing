@@ -60,3 +60,6 @@ shaili
 
 
 >>>>>>> origin/master
+
+For more info on how to use this repo, check  
+https://github.com/maggienj/Megan/blob/master/readme.MD
